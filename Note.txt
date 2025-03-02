@@ -23,3 +23,12 @@ https://vite.dev/guide/
   let htmls = courses.map2(function(course){
     return `<h2>${course}</h2>`
   })
+
+
+  https://mui.com/material-ui/?srsltid=AfmBOort0rFjkGubBB-C4Ip_Z0xsGaNQ8-lUz4WC2fJejw_SwIw3awI9
+
+  npm install @mui/material @emotion/react @emotion/styled
+
+  npm install @fontsource/roboto
+
+  npm install @mui/icons-material
