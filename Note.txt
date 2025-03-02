@@ -1,1 +1,4 @@
 https://vite.dev/guide/
+
+ npm install
+ npm run dev
