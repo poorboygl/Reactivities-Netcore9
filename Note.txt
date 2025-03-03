@@ -32,3 +32,5 @@ https://vite.dev/guide/
   npm install @fontsource/roboto
 
   npm install @mui/icons-material
+
+  npm install -D vite-plugin-mkcert
