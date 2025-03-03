@@ -487,3 +487,4 @@ $RECYCLE.BIN/
 .codegpt
 src/API/reactivities.db-shm
 src/API/reactivities.db-wal
+src/API/reactivities.db
