@@ -4,9 +4,10 @@ import { FormEvent } from "react";
 type Props = {
   activity?: Activity
   closeForm: () => void
+  submitForm: (activity: Activity) => void
 }
 
-export default function ActivityForm({activity, closeForm}: Props) {
+export default function ActivityForm({activity, closeForm, submitForm}: Props) {
 
   const handleSubmit = (event:FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -15,8 +16,9 @@ export default function ActivityForm({activity, closeForm}: Props) {
     formData.forEach((value,key) => {
       data[key] = value;
     });
-
-    console.log(data)
+    if(activity) data.id = activity.id
+    
+    submitForm(data as unknown as Activity)
   }
   return (
     <Paper sx={{borderRadius: 3, padding: 3}}>
