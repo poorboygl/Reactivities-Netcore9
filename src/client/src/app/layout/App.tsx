@@ -53,7 +53,7 @@ function App() {
     console.log(id);
   }
   return (
-    <Box sx={{bgcolor: '#eeeeee'}}>
+    <Box sx={{bgcolor: '#eeeeee', minHeight : '100vh'}}>
         <CssBaseline />
         <NavBar openForm ={handleOpenForm} />
         <Container maxWidth='xl' sx={{mt: 3}}>
