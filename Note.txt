@@ -38,3 +38,8 @@ https://vite.dev/guide/
   https://axios-http.com/vi/docs/intro
   
   npm install axios
+
+
+  https://tanstack.com/query/latest/docs/framework/react/overview
+
+  npm i @tanstack/react-query
