@@ -2,9 +2,9 @@ import { useActivities } from "../../../lib/hooks/useActivities";
 import ActivityDetailsHeader from "./ActivityDetailsHeader";
 import ActivityDetailsInfo from "./ActivityDetailsInfo";
 import ActivityDetailsChat from "./ActivityDetailsChat";
-import ActivityDetailsSidebar from "./ActivityDetailsSideBar";
 import { Grid2, Typography } from "@mui/material";
 import { useParams } from "react-router";
+import ActivityDetailsSidebar from "./ActivityDetailsSidebar";
 
 
 export default function ActivityDetailPage() {
@@ -16,10 +16,10 @@ export default function ActivityDetailPage() {
   if (!activity) return <Typography>Activity not found</Typography>
 
   return (
-   <Grid2 container spacing={2}>
+   <Grid2 container spacing={3}>
       <Grid2 size={8}>
-          <ActivityDetailsHeader/>
-          <ActivityDetailsInfo/>
+          <ActivityDetailsHeader activity= {activity}/>
+          <ActivityDetailsInfo activity= {activity}/>
           <ActivityDetailsChat/>
 
       </Grid2>
