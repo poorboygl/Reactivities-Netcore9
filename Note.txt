@@ -49,3 +49,5 @@ https://vite.dev/guide/
   ch07
   https://reactrouter.com/start/framework/installation
   npm i react-router
+
+  npm install react-calendar
