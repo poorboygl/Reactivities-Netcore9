@@ -56,3 +56,5 @@ https://vite.dev/guide/
 
 
   npm install date-fns
+
+  npm install mobx mobx-react-lite
